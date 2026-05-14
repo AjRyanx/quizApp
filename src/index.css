@@ -277,6 +277,30 @@ body {
   flex-shrink: 0;
 }
 
+.github-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 24px;
+  color: var(--text-secondary);
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.github-link:hover {
+  color: var(--accent);
+}
+
+.github-link svg {
+  transition: transform 0.2s ease;
+}
+
+.github-link:hover svg {
+  transform: scale(1.15);
+}
+
 /* ===== Progress Bar ===== */
 
 .progress-container {
